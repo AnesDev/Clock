@@ -1,0 +1,45 @@
+body{
+    background-color: #221B1B;
+}
+#clock{
+    font-size: 5rem;
+color: darkblue;
+text-shadow:
+0 0 7px #fff,
+0 0 10px #fff,
+0 0 21px #fff,
+0 0 42px #0fa,
+0 0 82px #0fa,
+0 0 92px #0fa,
+0 0 102px #0fa,
+0 0 151px #0fa;
+animation-name: clock;
+animation-direction: alternate-reverse;
+animation-duration: 1.5s;
+animation-iteration-count: infinite;
+}
+@keyframes clock{
+    from {
+        color: darkblue;
+    }
+    to {
+        color: darkgreen;
+    }
+}
+#cont{ position: absolute;
+    top : 50% ;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 15px;
+height: fit-content;
+width: fit-content ;
+    box-shadow: 
+0 0 7px #fff,
+0 0 10px #fff,
+0 0 21px #fff,
+0 0 42px #0fa,
+0 0 82px #0fa,
+0 0 92px #0fa,
+0 0 102px #0fa,
+0 0 151px #0fa;
+}
