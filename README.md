@@ -1,1 +1,1 @@
-Just a silly colour changing clock
+A colour changing clock
